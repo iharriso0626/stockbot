@@ -17,5 +17,21 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-color: #0C0004;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.my-bigger-bullets li::marker {
+  font-size: 1.5em;
+  color: #670A0D;
+}
+
